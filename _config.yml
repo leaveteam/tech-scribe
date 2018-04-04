@@ -1,0 +1,35 @@
+permalink         : /:categories/:title
+exclude           : [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+highlighter       : pygments
+
+title             : TechScribes
+tagline           : Fiches techniques orientées sécurité en français
+author:
+  name            : xC9 Team
+  email           : leaveteam@xc9.fr
+  github          : leaveteam
+  twitter         : leaveteam
+
+production_url    : https://leaveteam.github.io
+
+JB:
+  version         : 0.3.0
+  BASE_PATH       : https://leaveteam.github.io/tech-scribe
+  ASSET_PATH      : false
+
+  archive_path    : /archive.html
+  categories_path : /categories.html
+  tags_path       : /tags.html
+  atom_path       : /atom.xml
+  rss_path        : /rss.xml
+
+  comments:
+    provider      : false
+
+  analytics:
+    provider      : false
+
+  sharing:
+    provider      : false
+
+theme: jekyll-theme-slate
